@@ -1,7 +1,7 @@
 
 # Description
 
-Performance Test for VOL API
+Example of a gatling performance test 
 
 # Prerequisites
 - Maven
