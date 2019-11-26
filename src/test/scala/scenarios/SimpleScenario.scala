@@ -4,7 +4,7 @@ import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import utils.Config
 
-object MyScenario {
+object SimpleScenario {
 
   val ScenarioDetails = scenario("Get Officers Details")
     .feed(Config.FEEDER_FILE)
