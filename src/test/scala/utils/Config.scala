@@ -20,4 +20,5 @@ object Config {
     }
 
   val FEEDER_FILE = csv("example.csv").circular
+  val SECURITY_TOKEN_PATTERN = """id="security" value="([^"]*)&*"""
 }
