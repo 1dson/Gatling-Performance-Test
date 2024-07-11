@@ -6,7 +6,7 @@ import io.gatling.http.Predef._
 
 import scala.concurrent.duration._
 
-class MySimulation extends MySimulation {
+class MySimulation extends Simulation {
 
   val httpConfiguration = http
     .baseUrl(Config.BASE_URL)
